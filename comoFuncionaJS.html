@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómo funciona Java Script</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="js/comoFuncionaJS.js"></script>
+</head>
+<body>
+    <h1>JAVASCRIPT</h1>
+    
+    <div class="container">
+        <div class="alert alert-success mt-3" style="text-align: center;">
+            El video tutorial esta en el siguiente enlace:
+            <strong><a href="https://www.youtube.com/watch?v=iz2AI28K2YQ&list=PLveHubVQMkkJ_rIchYL2E84XHYSm1VI5f&index=13">GYPZ</a></strong>
+        </div>
+
+        <div class="row row-cols-4">
+            <div class="col"><a href="arreglos.html">Arreglos</a></div>
+            <div class="col"><a href="asyncAwait.html">Async Await</a></div>
+            <div class="col"><a href="asyncAwait2.html">Async Await 2</a></div>            
+            <div class="col"><a href="booleanosCondicionales.html">Condiciones Booleanas</a></div>
+            <div class="col"><a href="bucles.html">Bucles</a></div>
+            <div class="col"><a href="callback.html">Callback</a></div>
+            <div class="col"><a href="clases.html">Clases</a></div>
+            <div class="col"><a href="comoFuncionaJS.html">Cómo Funciona JS</a></div>
+            <div class="col"><a href="funciones.html">Funciones</a></div>
+            <div class="col"><a href="herencia.html">Herencia</a></div>
+            <div class="col"><a href="objNoLiteral.html">Objeto No Literal</a></div>
+            <div class="col"><a href="poo.html">POO</a></div>
+            <div class="col"><a href="promises.html">Promises</a></div>
+            <div class="col"><a href="promises2.html">Promises 2</a></div>
+            <div class="col"><a href="prototypes.html">Prototype</a></div>
+            <div class="col"><a href="storage.html">Storage</a></div>
+            <div class="col"><a href="timeout.html">Timeout</a></div>
+            <div class="col"><a href="tipoDatoNumber.html">Tipo Dato Numérico</a></div>
+            <div class="col"><a href="tipoDatoString.html">Tipo Dato String</a></div>
+            <div class="col"><a href="variables.html">Variables</a></div>
+        </div>
+        <br>
+        <h2>¿Cómo funciona JavaScript?</h2>
+        <h3>Ejemplo de asincronía</h3>
+        <p>Rápidamente, la función asíncrona setTimeout consiste en ejecutar otra función en cierto tiempo. Recibe dos valores, la función a establecer un retraso y el tiempo en milisegundos.</p>
+        <p>Observa el siguiente código y piensa cuál será el resultado:</p>
+        <img style="align-items: center;" src="img/funcionamientoJS.png" alt="" srcset="">
+        <p>El resultado es:</p>
+        <ul>
+            <li>Primero se muestra en consola "First".</li>
+            <li>Segundo se muestra en consola "Third".</li>
+            <li>Después de medio segundo, "Second".</li>
+        </ul>
+        <p>Esto es porque la función bar salió del Call Stack para esperar asíncronamente un tiempo definido (0 segundos en este caso). Después tendrá que esperar (sin importar el tiempo establecido en setTimeout) hasta que se vacíe el Call Stack para que el Event loop le permita entrar nuevamente al Call Stack para ejecutarse.</p>
+           
+        <img src="img/comoFuncionaJS.gif" alt="" srcset="">
+    </div>
+    
+</body>
+</html>

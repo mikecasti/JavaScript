@@ -1,0 +1,29 @@
+ Volume in drive D is Nuevo vol
+ Volume Serial Number is EC6E-8A6A
+
+ Directory of D:\Cursos Mike\JavaScript\js
+
+06/06/2023  17:59             6,366 arreglos.js
+13/06/2023  10:47               672 asyncAwait.js
+13/06/2023  17:38             1,381 asyncAwait2.js
+06/06/2023  12:21             5,259 BooleanosCondicionales.js
+05/10/2021  11:43            78,129 bootstrap.bundle.min.js
+07/06/2023  17:30             2,678 bucles.js
+13/06/2023  09:58             1,549 callback.js
+07/06/2023  16:02               931 clases.js
+12/06/2023  15:34               741 comoFuncionaJS.js
+05/06/2023  16:51             2,516 funciones.js
+07/06/2023  16:49             3,014 herencia.js
+05/06/2023  11:33               137 index.js
+07/06/2023  12:23             1,769 objNoLiteral.js
+07/06/2023  10:41             2,102 poo.js
+13/06/2023  10:02             2,001 promises.js
+13/06/2023  10:02               951 promises2.js
+07/06/2023  12:11             1,940 prototypes.js
+09/06/2023  19:19             2,266 storage.js
+09/06/2023  19:42             1,433 timeout.js
+06/06/2023  09:21             2,290 tipoDatoNumber.js
+06/06/2023  08:47             2,712 tipoDatoString.js
+05/06/2023  14:40             3,567 variables.js
+              22 File(s)        124,404 bytes
+               0 Dir(s)  129,430,921,216 bytes free
